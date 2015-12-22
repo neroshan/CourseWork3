@@ -1,0 +1,491 @@
+
+html,
+        body {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: #EDEDED;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+header {
+     background: #000;
+     padding:10px;
+     height: 90px;
+}
+
+main{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 500px;
+}
+
+.slide_show{
+    width:100%;
+    height: 250px;
+    background: #5b5b5b;
+}
+
+.slide_show img{
+    width:100%;
+    height:250px;
+}
+
+section{
+    float: left;
+    background: #ffffff;
+    width: 32%;
+    margin: 25px 0px 0px 0px;
+    padding: 0px 0px 15px 0px;
+    border: solid #F5F5F5 0px;
+    /*box-shadow: 0px -8px 10px 0px rgba(0,0,0,0.15);*/
+}
+
+.section_racism{
+    margin-left: 0px;
+}
+
+.section_racism p, .sub_section_sexism p, .section_wealth p{
+    margin: 0px 20px 5px 20px;
+    margin-top: -15px;
+    color: #404040;
+}
+
+.section_racism img, .sub_section_sexism img, .section_wealth img{
+    width: 150px;
+    height: 135px;
+    float:right;
+}
+
+p.read_more a, p.read_more a:visited{
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+    color: #1873cc;
+}
+
+p.read_more a:hover{
+    text-decoration: underline;
+}
+
+.sub_section_sexism{
+    margin-left:2%;
+}
+
+.page_section_sexism{
+    width: 65%;
+}
+
+.page_section_sexism h2, .page_section_sexism_quick h2{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom:-30px;
+    margin-top:-20px;
+}
+
+.page_section_sexism_fixed{
+    position: fixed;
+    top: 20px; 
+    right: 5%;
+    width:28.8%;
+}
+
+.page_section_sexism ul{
+    list-style-type: none;
+    float: right;
+    margin-right:20px;
+}
+
+.page_section_sexism ul li{
+    display: inline;
+    background: #E3E3E3;
+    border:solid #E0E0E0 1px;
+    padding: 7px 8px 5px 8px;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.page_section_sexism_quick{
+    width: 65%;
+}
+
+.page_section_sexism_quick p, .page_section_sexism p{
+    margin: 0px 20px 5px 20px;
+    margin-top: 0px;
+    color: #404040;
+    padding-bottom: 15px;
+}
+
+.page_section_sexism img{
+    width: 170px;
+    height: 150px;
+    float:left;
+}
+
+.page_section_sexism_quick img{
+    width: 40%;
+    height: 43%px;
+    float:right;
+    margin-top:-20px;
+}
+
+.page_section_sexism_quick .date_published, .page_section_sexism .date_published {
+    margin-left:20px;
+    margin-top: 20px;
+    margin-botom:0px;
+    color: grey;
+    font-weight: 400;
+    padding-top:0px;
+    font-size: 13px;
+    font-family: sans-serif;
+    
+}
+
+.page_section_sexism_quick .wrote, .page_section_sexism .wrote{
+    margin-left:20px;
+    margin-top: 30px;
+    margin-botom:0px;
+    color: #828282;
+    font-weight: 400;
+    padding-top:0px;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.page_section_sexism ol li{
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+#right_menu{
+ float: right;
+}
+
+#right_menu h2{
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#right_menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+#right_menu ul li{
+    padding: 8px 0px 8px 10px;
+    margin-left:0px;
+    display: block;
+}
+
+#right_menu ul li:hover{
+    background: #D9D9D9;
+    cursor: pointer;
+}
+
+
+section  h2 {
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px 5px 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    font-weight:200;
+    border-bottom: solid #F2F2F2 0px;
+}
+
+footer {
+    position:absolute;
+    left:0px;
+    right:0px;
+    width:100%;
+    height:120px;   /* Height of the footer */
+    background:#000;
+    border-top: solid #1873cc 4px;
+}
+
+#logo{
+    width: auto;
+    color: #fff;
+    font-weight: bold;
+    float:left;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family: Monaco; 
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	z-index: 10000;
+}
+
+
+nav{
+    position:absolute;
+    width:100%;
+	font-family: arial; 
+	font-size: 13px;
+	color: #FFFFFF;
+    top:70px;
+    left:0px;
+    background: #1873cc;
+   }
+
+nav ul{ 
+    width: 90%;
+	height: auto;
+	z-index: 1000;
+    list-style-type: none;
+	padding: 18px 10px 18px 10px;
+  	margin:auto;
+    
+	}
+
+nav ul li{
+    display: inline;
+	padding: 0px 0px 0px 0px;
+	margin-left: -1px;
+	}
+
+nav ul li a{
+     color: #FFFFFF;
+     font-weight: bold;
+	 text-decoration: none;
+	 padding: 18px 15px 18px 15px;
+	 }
+
+nav li a:hover{
+	 text-decoration: none;
+	 padding-bottom: 18px; 
+     color: #092e51;
+     
+	 }
+
+nav .current{
+	 text-decoration: none;
+	 padding-top: 11px;
+	 margin-top:2px;
+	 padding-bottom: 11px;
+     color: #000000;
+	 }
+
+
+nav ul li ul.sexism_nav{
+    position: absolute;
+    left: 223px;
+}
+
+nav ul li ul.wealth_nav{
+    position: absolute;
+    left: 305px;
+}
+
+nav ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 135px;
+  width: 150px;
+  visibility: hidden;
+}
+
+nav ul li ul li { 
+  background: #1873cc; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+  padding: 12px 15px 10px 15px;
+}
+
+nav ul li ul li:hover { background: #2f81d1; color: #fff;}
+nav ul li ul li a:hover { color: #fff;}
+
+nav ul li:hover ul {
+  display: block;
+  visibility: visible;
+  color: #ffffff;
+}
+
+
+ #menu{
+     display:none;
+    }
+
+#menu_bar{
+        display:none;
+}
+/*Search bar*/
+
+.search_bar{
+    float:right;
+	 margin-top:10px;
+     width:350px;
+	 height:auto;
+	 }
+
+ .search_form {
+     position: absolute;
+	 margin-right:0px;
+	 margin-top:0px;
+	 /*text description*/
+	 font-family:arial;
+	 font-size: 15px;
+	 } 
+
+ .search_textbox {
+     font-size: 15px;
+     width:200px;
+	 height:25px;
+	 border: #1873cc solid 3px;
+     border-right: 0px;
+	 vertical-align: middle;
+	 color:black
+	 }
+
+.search_textbox:first-letter {
+      padding: 0px 0px 0px 15px; 
+}
+	 
+ .search_button {
+     width:42px;
+	 height:33px;
+     padding: 0px 10px 0px 10px;
+	 border: #1873cc solid 3px;
+	 border-left:8px solid #1873cc;
+	 background: #1873cc;
+	 margin-left: -5px;
+	 margin-top: 0px;
+	 cursor:pointer;
+	 vertical-align: middle;
+	 background-image:url('img/search.png');
+	 background-repeat:no-repeat;
+	 }
+	 
+ .search_form input[type=submit] image{
+     margin-left:50px;
+}
+
+@media screen and (max-width:380px){
+    
+    main{
+        width: 95%;
+    }
+    
+    .slide_show{
+           150px;
+    }
+    
+     nav{ 
+        height: 50px;
+        width: 100%;
+	}
+    
+    nav ul{ 
+        display:none;
+        padding: 15px 0px 15px 0px;
+	}
+    
+    section{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .page_section_sexism_quick{
+        width: 100%;
+    }
+    .page_section_sexism{
+        width:100%;    
+    }
+    
+    #right_menu{
+        display:none;
+    }
+    .sub_section_sexism{
+        margin-left:0;
+    }
+    
+    .search_bar{
+        display: none;
+    }
+    
+    #logo{
+        margin-left:0px;
+    }
+    
+    #menu{
+        display:inline-block;
+        float:right;
+        margin-right:0px;
+        background:#1873cc;
+        margin-top:0px;
+        height:33px;
+        padding: 9px 12px 8px 12px;
+    }
+    
+    
+    #menu img{
+        
+    }
+    
+    #menu_bar{
+        display:none;
+        position:fixed;
+        left:0%;
+        right:10%;
+        width:100%;
+        margin:auto;
+        margin-top:10px;
+        height: 225px;
+        background: #1873cc;
+        border-top:solid #1566b5 0px;
+    }
+    
+    #menu_bar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 96%;
+        color: black;/*white;*/
+    }
+
+    #menu_bar li a{
+        color: white;
+        display: block;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom:10px;
+        padding-left:5%;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid #1566b5;
+        background-color: #1873cc;
+        text-decoration:none;
+    }
+
+    #menu_bar ul li a:hover{
+        color: #ffffff;
+        background: #1566b5;
+    }
+
+    
+  .fixed_menu_bar {
+        position: fixed; 
+        top: 40px; 
+        z-index: 10000;
+    }
+}

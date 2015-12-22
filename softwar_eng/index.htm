@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Equal opportunity</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script>
+               $(document).ready(function(){
+                   
+                   $(window).bind('scroll', function() {
+                        scroll = $(window).scrollTop();
+                        
+                         if (scroll >= 70) {
+                             $('nav').addClass('fixed');
+                             $('#menu_bar').addClass('fixed_menu_bar');
+                         }
+                         else {
+                             $('nav').removeClass('fixed');
+                             $('#menu_bar').removeClass('fixed_menu_bar');
+                         }
+                       
+                       if (scroll >= 30) {
+                             $('#menu_bar').addClass('fixed_menu_bar');
+                         }
+                         else {
+                             $('#menu_bar').removeClass('fixed_menu_bar');
+                         }
+                    });
+                   
+                   
+                    $( "#menu" ).click(function() {
+                        $( "#menu_bar").slideToggle( "slow" );
+                    });
+            
+                    $( "#close" ).click(function() {
+                        $( "#menu_bar").hide();
+                    });
+            
+                    $( "#main" ).click(function() {
+                        $( "#menu_bar").hide();
+                    });
+                });
+        </script>
+        
+    </head>
+    <body>
+    
+        
+    <div id="container">
+        <header>
+            <div id="logo">
+                Equal Opportunities
+            </div>
+            <div class="search_bar">
+                <form class="search_form" name="form" method="get" action="#" >
+                    <input class="search_textbox" type="text" name="search" placeholder="Search"/>
+                    <input type="submit" class="search_button" value="" />
+                </form>
+            </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.htm">HOME</a></li>
+            <li>
+                <a href="racisim.htm">RACISIM</a>
+                <ul class="racisim_nav">
+                    <li><a href="#">SUB RACISM</a></li>
+                    <li><a href="#">SUB RACISM</a></li>
+                    <li><a href="#">SUB RACISM</a></li>
+                </ul>
+            </li>
+            <li><a href="#">SEXISM</a>
+                <ul class="sexism_nav">
+                    <li><a href="#">SUB SEXISM</a></li>
+                    <li><a href="#">SUB SEXISM</a></li>
+                    <li><a href="#">SUB SEXISM</a></li>
+                </ul>
+            
+            </li>
+            <li><a href="#">WEALTH</a>
+                <ul class="wealth_nav">
+                    <li><a href="#">SUB WEALTH</a></li>
+                    <li><a href="#">SUB WEALTH</a></li>
+                    <li><a href="#">SUB WEALTH</a></li>
+                </ul>
+                
+            </li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+        
+        <div id="menu"><img alt ="menu" src="img/menu.png"></div>
+    </nav>
+        <div id="menu_bar">
+            <ul>
+                <li><a href="index.htm">HOME</a></li>
+                <li><a href="racisim.htm">RACISIM</a></li>
+                <li><a href="#">SEXISM</a></li>
+                <li><a href="#">WEALTH</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+            <main>
+                <div class="slide_show">
+                   <img src="img/slide_show.png" alt="slide show">
+                </div>
+                
+                <section class="section_racism">
+                     <h2>Racisim</h2>
+                    <p> <img src="img/Racism.jpg" alt="racism">
+                        Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
+                        Modern variants are often based in social perceptions of biological differences    between peoples.
+                        
+                    </p>
+                    
+                    <p class="read_more"><a href="#">Read more</a></p>
+                </section>
+                
+                <section class="sub_section_sexism">
+                    <h2>Gender inequality</h2>
+                    <p> <img src="img/gender_equal.png" alt="racism">
+                        Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
+                        Modern variants are often based in social perceptions of biological differences    between peoples.
+                    </p>
+                    <p class="read_more"><a href="#">Read more</a></p>
+                </section>
+                
+                <section class="section_wealth" style="float:right;">
+                    <h2>Wealth</h2>
+                    <p> <img src="img/wealth.jpg" alt="racism">
+                        Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
+                        Modern variants are often based in social perceptions of biological differences    between peoples.
+                    </p>
+                    <p class="read_more"><a href="#">Read more</a></p>
+                </section>
+                
+                
+            </main>
+            <div style="height:20px;clear:both;"></div>
+        <footer>
+        </footer>
+    </div>
+
+    </body>
+</html>
