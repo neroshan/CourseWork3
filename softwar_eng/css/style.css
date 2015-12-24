@@ -15,7 +15,7 @@ html,
 }
 
 header {
-     background: #000;
+     background: #3B3B3B;
      padding:10px;
      height: 90px;
 }
@@ -24,26 +24,28 @@ main{
     width: 90%;
     height: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-bottom: 500px;
 }
 
 .slide_show{
     width:100%;
-    height: 250px;
-    background: #5b5b5b;
+    height: auto;
+    
+    margin:auto;
 }
 
 .slide_show img{
     width:100%;
-    height:250px;
+    height:300px;
+    margin-top: 20px;
 }
 
 section{
     float: left;
     background: #ffffff;
     width: 32%;
-    margin: 25px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     padding: 0px 0px 15px 0px;
     border: solid #F5F5F5 0px;
     /*box-shadow: 0px -8px 10px 0px rgba(0,0,0,0.15);*/
@@ -82,7 +84,8 @@ p.read_more a:hover{
 }
 
 .page_section_sexism{
-    width: 65%;
+    width: 67%;
+    margin-top: 8px;
 }
 
 .page_section_sexism h2, .page_section_sexism_quick h2{
@@ -94,7 +97,7 @@ p.read_more a:hover{
 
 .page_section_sexism_fixed{
     position: fixed;
-    top: 20px; 
+    top: 45px; 
     right: 5%;
     width:28.8%;
 }
@@ -115,7 +118,16 @@ p.read_more a:hover{
 }
 
 .page_section_sexism_quick{
-    width: 65%;
+    width: 67%;
+}
+
+.contact_us {
+    width: 67%;
+}
+
+fieldset{
+    width:90%;
+    margin:auto;
 }
 
 .page_section_sexism_quick p, .page_section_sexism p{
@@ -135,7 +147,7 @@ p.read_more a:hover{
     width: 40%;
     height: 43%px;
     float:right;
-    margin-top:-20px;
+    margin-top:-10px;
 }
 
 .page_section_sexism_quick .date_published, .page_section_sexism .date_published {
@@ -184,13 +196,15 @@ p.read_more a:hover{
     padding-right: 20px;
 }
 
-#right_menu ul li{
+#right_menu ul li a{
     padding: 8px 0px 8px 10px;
     margin-left:0px;
     display: block;
+    text-decoration: none;
+    color: #000;
 }
 
-#right_menu ul li:hover{
+#right_menu ul li a:hover{
     background: #D9D9D9;
     cursor: pointer;
 }
@@ -213,7 +227,7 @@ footer {
     right:0px;
     width:100%;
     height:120px;   /* Height of the footer */
-    background:#000;
+    background:#3B3B3B;
     border-top: solid #1873cc 4px;
 }
 
@@ -224,7 +238,7 @@ footer {
     float:left;
     font-size: 25px;
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 50px;
     font-family: Monaco; 
 }
 
@@ -234,6 +248,9 @@ footer {
 	z-index: 10000;
 }
 
+#mobile_logo{
+        display:none;
+    }
 
 nav{
     position:absolute;
@@ -245,6 +262,7 @@ nav{
     left:0px;
     background: #1873cc;
    }
+
 
 nav ul{ 
     width: 90%;
@@ -322,9 +340,10 @@ nav ul li:hover ul {
 }
 
 
- #menu{
+ #menu, #menu img, #menu_close, #menu_close img{
      display:none;
     }
+
 
 #menu_bar{
         display:none;
@@ -349,9 +368,9 @@ nav ul li:hover ul {
 
  .search_textbox {
      font-size: 15px;
-     width:200px;
+     width:280px;
 	 height:25px;
-	 border: #1873cc solid 3px;
+	 border: #104E8B solid 3px;
      border-right: 0px;
 	 vertical-align: middle;
 	 color:black
@@ -365,9 +384,9 @@ nav ul li:hover ul {
      width:42px;
 	 height:33px;
      padding: 0px 10px 0px 10px;
-	 border: #1873cc solid 3px;
-	 border-left:8px solid #1873cc;
-	 background: #1873cc;
+	 border: #104E8B solid 3px;
+	 border-left:8px solid #104E8B;
+	 background: #104E8B;
 	 margin-left: -5px;
 	 margin-top: 0px;
 	 cursor:pointer;
@@ -386,14 +405,37 @@ nav ul li:hover ul {
         width: 95%;
     }
     
-    .slide_show{
-           150px;
+    header{
+        display: none;
     }
     
+    .slide_show{
+    
+    }
+    .slide_show img{
+           height:200px;
+           width: 100%;
+        margin-top:60px;
+    }
+    
+    
      nav{ 
-        height: 50px;
+        height: 55px;
         width: 100%;
+        top:0px;
+         position:fixed;
+         background: #3B3B3B;
 	}
+    
+    
+    #mobile_logo{
+        float: left;
+        display: flex;
+        font-family: cursive;
+        font-size: 25px;
+        margin-top:8px;
+        margin-left:10px;
+    }
     
     nav ul{ 
         display:none;
@@ -405,9 +447,26 @@ nav ul li:hover ul {
         margin-left: 0px;
     }
     
+    .contact_us {
+        margin-top:50px;
+        width:100%;
+    }
+    .section_racism img, .sub_section_sexism img, .section_wealth img{
+        width: 90%;
+        height: 200px;
+    }
+    
     .page_section_sexism_quick{
         width: 100%;
+        margin-top:60px;
     }
+    
+    .page_section_sexism_quick img{
+        width: 100%;
+        height: 100%px;
+        margin-top: 10px;
+    }
+    
     .page_section_sexism{
         width:100%;    
     }
@@ -427,19 +486,26 @@ nav ul li:hover ul {
         margin-left:0px;
     }
     
-    #menu{
+    #menu, #menu_close{
         display:inline-block;
         float:right;
         margin-right:0px;
-        background:#1873cc;
-        margin-top:0px;
+        margin-top:5px;
         height:33px;
         padding: 9px 12px 8px 12px;
     }
     
     
     #menu img{
-        
+        width: 32px;
+        heihgt: 32px;
+        display: block;
+    }
+    
+    #menu_close img{
+        width: 28px;
+        heihgt: 28px;
+        display: block;
     }
     
     #menu_bar{
@@ -449,7 +515,7 @@ nav ul li:hover ul {
         right:10%;
         width:100%;
         margin:auto;
-        margin-top:10px;
+        margin-top:55px;
         height: 225px;
         background: #1873cc;
         border-top:solid #1566b5 0px;
@@ -480,8 +546,21 @@ nav ul li:hover ul {
     #menu_bar ul li a:hover{
         color: #ffffff;
         background: #1566b5;
+        
     }
 
+    #menu_bar ul .mobile_search_bar{
+        height:50px;
+        width:100%;
+        border-bottom: 1px solid #1566b5;
+        
+    }
+    
+    .mobile_search{
+        margin-top:20px;    
+        margin-left:20px;
+        width:100%;
+    }
     
   .fixed_menu_bar {
         position: fixed; 
