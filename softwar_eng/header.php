@@ -123,6 +123,14 @@
                 </ul>
                 
             </li>
+			<li><a href="social_factors_affecting_IT1.php">EFFECT OF SOCIETY</a>
+                <ul class="society_nav">
+                    <li><a href="social_factors_affecting_IT1.php">EFFECT OF SOCIETY</a></li>
+                    <li><a href="social_factors_affecting_IT2.php">WHAT SOCIETY TELLS US</a></li>
+                    <li><a href="social_factors_affecting_IT3.php">HOW SOCIETY CAN CHANGE</a></li>
+                </ul>
+                
+            </li>
             <li><a href="contactus.php">CONTACT US</a></li>
         </ul>
         <div id="mobile_logo">

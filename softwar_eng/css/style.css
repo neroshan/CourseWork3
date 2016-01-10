@@ -364,6 +364,11 @@ nav ul li ul.wealth_nav{
     left: 305px;
 }
 
+nav ul li ul.society_nav{
+    position: absolute;
+    left: 510px;
+}
+
 nav ul li ul {
   padding: 0;
   position: absolute;
