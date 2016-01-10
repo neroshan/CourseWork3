@@ -7,7 +7,7 @@
                 </div>
                 
                 <section class="section_racism">
-                     <h2>Racisim</h2>
+                     <h2>Racism</h2>
                     <p> <img src="img/Racism.jpg" alt="racism">
                         Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
                         Modern variants are often based in social perceptions of biological differences    between peoples.
@@ -29,6 +29,13 @@
                     <p> <img src="img/wealth.jpg" alt="racism">
                         Poverty has a good number of factors that can affect the capability of a child to learn effectively in school which
                         can later lead to poor education.
+                    </p>
+                </section>
+				
+				<section class="section_society" style="float:right;">
+                    <h2>The effect of Society</h2>
+                    <p> <img src="img/society.png" alt="society">
+                        “The reflection of the current social paradigm tells us we are largely determined by conditioning and conditions.” <b>Stephen R. Covey</b>
                     </p>
                 </section>
                 

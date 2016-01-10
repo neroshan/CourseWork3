@@ -53,20 +53,20 @@ section{
     /*box-shadow: 0px -8px 10px 0px rgba(0,0,0,0.15);*/
 }
 
-.section_racism, .sub_section_sexism, .section_wealth{
+.section_racism, .sub_section_sexism, .section_wealth, .section_society{
     height: auto;
 }
 .section_racism{
     margin-left: 0px;
 }
 
-.section_racism p, .sub_section_sexism p, .section_wealth p, .contact_us p{
+.section_racism p, .sub_section_sexism p, .section_wealth p, .section_society p, .contact_us p{
     margin: 0px 20px 5px 20px;
     margin-top: -15px;
     color: #404040;
 }
 
-.section_racism img, .sub_section_sexism img, .section_wealth img{
+.section_racism img, .sub_section_sexism img, .section_wealth img, .section_society img{
     width: 150px;
     height: 135px;
     float:right;
@@ -564,7 +564,7 @@ section.contact_us #query_title, section.contact_us #query_telephone{
         display:none;
     }
     
-    .section_racism, .sub_section_sexism, .section_wealth{
+    .section_racism, .sub_section_sexism, .section_wealth, .section_society{
     height:auto;
    }
     .sub_section_sexism{
