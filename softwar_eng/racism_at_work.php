@@ -37,6 +37,7 @@
                 </section>
             
                
+                   
                 <section id="mobile_page_nav">
                     <h2>Sub heading</h2>
                     
@@ -53,7 +54,7 @@
                     <p class="wrote">By <?php echo $select_content['author']; ?> - Updated: 02 Jan 2016</p>
                     
                         <?php 
-                            echo html_entity_decode($select_content['content']);
+                            echo $select_content['content'];
                             ?>
                     
                 </section>

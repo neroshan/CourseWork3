@@ -1,7 +1,8 @@
 <?php
+
     error_reporting(E_ALL ^ E_DEPRECATED);
     require_once("db_connection.php");
-    $sql_content = "SELECT * FROM content WHERE id='1'"; 
+    $sql_content = "SELECT * FROM content WHERE id='2'"; 
     $tb_content = mysql_query($sql_content) or die(mysql_error());
     $select_content = mysql_fetch_array($tb_content);
     $title = $select_content['page_title'];                    
@@ -35,9 +36,8 @@
                     </ul>
                     
                 </section>
-            
-               
-                <section id="mobile_page_nav">
+                
+                 <section id="mobile_page_nav">
                     <h2>Sub heading</h2>
                     
                     <ul>
@@ -46,11 +46,11 @@
                         <li><a href="racism_prevent.php">TECHNOLOGY PREVENT RACISM</a></li>
                     </ul>
                 </section>
-         
+                
                 <section class="page_section_sexism">
                     <p class="date_published"></p>
                     <h2><?php echo $select_content['page_title']; ?></h2>
-                    <p class="wrote">By <?php echo $select_content['author']; ?> - Updated: 02 Jan 2016</p>
+                    <p class="wrote">By <?php echo $select_content['author']; ?> - Updated: 22 Dec 2015</p>
                     
                         <?php 
                             echo html_entity_decode($select_content['content']);

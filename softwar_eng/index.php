@@ -1,3 +1,4 @@
+<?php $title= "Equal Opportunity"; ?>
 <?php require_once("header.php");?>
 
             <main>
@@ -12,26 +13,23 @@
                         Modern variants are often based in social perceptions of biological differences    between peoples.
                         
                     </p>
-                    
-                    <p class="read_more"><a href="#">Read more</a></p>
                 </section>
                 
                 <section class="sub_section_sexism">
-                    <h2>Gender inequality</h2>
+                    <h2>What are the indicators of gender inequality in Information Technology</h2>
                     <p> <img src="img/gender_equal.png" alt="racism">
-                        Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
-                        Modern variants are often based in social perceptions of biological differences    between peoples.
+                        Although women have had a number of decisive roles in the development of computing and the IT industry, such as Ada
+                        Lovelace or Grace Hopper, the modern tech industry is perceived as a male-oriented sector; leading to gender
+                        inequalities.
                     </p>
-                    <p class="read_more"><a href="#">Read more</a></p>
                 </section>
                 
                 <section class="section_wealth" style="float:right;">
-                    <h2>Wealth</h2>
+                    <h2>How lack of education or poor education due to wealth can affect people and their environment</h2>
                     <p> <img src="img/wealth.jpg" alt="racism">
-                        Racism is prejudice, discrimination, or antagonism directed against someone of a different race based on the belief                         that one's own race is superior. 
-                        Modern variants are often based in social perceptions of biological differences    between peoples.
+                        Poverty has a good number of factors that can affect the capability of a child to learn effectively in school which
+                        can later lead to poor education.
                     </p>
-                    <p class="read_more"><a href="#">Read more</a></p>
                 </section>
                 
                 
