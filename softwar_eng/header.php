@@ -100,7 +100,7 @@
             
             <li><a href="index.php">HOME</a></li>
             <li>
-                <a href="racism.php">RACISIM</a>
+                <a href="racism.php">RACISM</a>
                 <ul class="racisim_nav">
                     <li><a href="racism.php">RACISM AT WORKPLACE</a></li>
                     <li><a href="racism_education.php">RACISM IN EDCATION</a></li>
