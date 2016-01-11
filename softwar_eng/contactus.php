@@ -9,7 +9,7 @@
          
          
                 <?php
-                    if ($_POST["email"]<>'') { 
+                    if (isset($_POST["email"])<>'') { 
                         $ToEmail = 'niroshankulasingam@gmail.com'; 
                         $EmailSubject = $_POST["query_title"]; 
                         $mailheader = "From: ".$_POST["email"]."\r\n"; 
@@ -36,7 +36,7 @@
                     </div>
                     
                     <div class="contact_us_profile">
-                        <img src="img/niroshan.jpg" alt="profile1">
+                        <img src="img/niroshan.jpg" alt="profile2">
                         <p>Name: Niroshan Kulasingam<br>
                             Email:  <a href="mailto:w1564380@my.westminster.ac.uk" target="_top">
                                         w1564380@my.westminster.ac.uk
@@ -46,10 +46,19 @@
                     </div>
                     
                     <div class="contact_us_profile">
-                        <img src="img/alex.jpg" alt="profile1">
+                        <img src="img/alex.jpg" alt="profile3">
                         <p>Name: Alexis Miakouikila<br>
                             Email: <a href="mailto:w1414722@my.westminster.ac.uk" target="_top">
                                         w1414722@my.westminster.ac.uk
+                                   </a>
+                            </p>
+                    </div>
+					
+					<div class="contact_us_profile">
+                        <img src="img/ashley-james.jpg" alt="profile4">
+                        <p>Name: Ashley-James Buckingham<br>
+                            Email: <a href="mailto:ashley-james.buckingham@my.westminster.ac.uk" target="_top">
+                                        ashley-james.buckingham@my.westminster.ac.uk
                                    </a>
                             </p>
                     </div>

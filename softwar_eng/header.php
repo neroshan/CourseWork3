@@ -84,7 +84,10 @@
                     }
                     if($page=="sexism_in_IT.php" ||$page=="sexism_in_IT2.php" || $page== "sexism_in_IT3.php"){
                       echo "<img src='img/sexsim_logo.png' alt='logo3'>";  
-                    }    
+                    }
+                if($page=="social_factors_affecting_IT1.php" ||$page=="social_factors_affecting_IT2.php" || $page== "social_factors_affecting_IT3.php"){
+                      echo "<img src='img/society.png' alt='logo4'>";  
+                    }      
                 ?>
             </div>
             <!--
@@ -117,7 +120,7 @@
             </li>
              <li><a href="wealth_in_education1.php">WEALTH IN EDUCATION</a>
                 <ul class="wealth_nav">
-                    <li><a href="wealth_in_education1.php">DIFFERENECES IN ACCESS TO EDUCATION DUE TO WEATLTH ISSUES</a></li>
+                    <li><a href="wealth_in_education1.php">DIFFERENCES IN ACCESS TO EDUCATION DUE TO WEATLTH ISSUES</a></li>
                     <li><a href="wealth_in_education2.php">HOW IT AFFECTS PEOPLE</a></li>
                     <li><a href="wealth_in_education3.php">HOW TECHNOLOGY CAN HELP IN RESOLVING THIS ISSUE</a></li>
                 </ul>
@@ -146,6 +149,9 @@
                     }
                     if($page=="sexism_in_IT.php" ||$page=="sexism_in_IT2.php" || $page== "sexism_in_IT3.php"){
                       echo "<img src='img/sexsim_logo.png' alt='logo3'>";  
+                    }
+					if($page=="social_factors_affecting_IT1.php" ||$page=="social_factors_affecting_IT2.php" || $page== "social_factors_affecting_IT3.php"){
+                      echo "<img src='img/society.png' alt='logo4'>";  
                     }    
                 ?>
             Equal Opportunity
@@ -165,9 +171,10 @@
                     
                 </li>-->
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="racism.php">RACISIM</a></li>
+                <li><a href="racism.php">RACISM</a></li>
                 <li><a href="sexism_in_IT.php">SEXISM</a></li>
                 <li><a href="wealth_in_education2.php">WEALTH</a></li>
+                <li><a href="social_factors_affecting_IT1.php">EFFECT OF SOCIETY</a>
                 <li><a href="contactus.php">CONTACT US</a></li>
             </ul>
         </div>

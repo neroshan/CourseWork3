@@ -3,8 +3,10 @@
 
             <main>
                 <div class="slide_show">
-                   <img src="img/slide_show.png" alt="slide show">
+                   <img id="slide_show_img" src="img/ss1.png" alt="slide show">
                 </div>
+				
+				<script src="js/slide_show.js"></script>
                 
                 <section class="section_racism">
                      <h2>Racism</h2>
@@ -18,9 +20,8 @@
                 <section class="sub_section_sexism">
                     <h2>What are the indicators of gender inequality in Information Technology</h2>
                     <p> <img src="img/gender_equal.png" alt="racism">
-                        Although women have had a number of decisive roles in the development of computing and the IT industry, such as Ada
-                        Lovelace or Grace Hopper, the modern tech industry is perceived as a male-oriented sector; leading to gender
-                        inequalities.
+                        Although women have had a number of decisive roles in the development of computing, such as Ada
+                        Lovelace or Grace Hopper, the modern tech industry is perceived as a male-oriented sector.
                     </p>
                 </section>
                 
@@ -31,14 +32,13 @@
                         can later lead to poor education.
                     </p>
                 </section>
-				
+                
 				<section class="section_society" style="float:right;">
                     <h2>The effect of Society</h2>
                     <p> <img src="img/society.png" alt="society">
-                        “The reflection of the current social paradigm tells us we are largely determined by conditioning and conditions.” <b>Stephen R. Covey</b>
+                        "The reflection of the current social paradigm tells us we are largely determined by conditioning and conditions." <b>Stephen R. Covey</b>
                     </p>
                 </section>
-                
                 
             </main>
             <div style="height:20px;clear:both;"></div>
